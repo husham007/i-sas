@@ -1,0 +1,45 @@
+################################################################################
+Instructions/Steps for using Git/GitHub for Integrify - Student Assesment System
+################################################################################
+
+1-  For downloading repo from GitHub:
+    a-  git clone https://github.com/husham007/i-sas.git
+2-  Checking status of repo:
+    a- git status
+
+Important!!!!
+Always work on your own branch. Do not work on master or development branch.
+Always create your branch from development branch. development branch will have all the done code. 
+Before creating branch from development branch, first pull from remote development branch to get the latest development branch if required. 
+
+3- Switch to development branch:
+    a-  git checkout development
+4-  Creating a branch from develoment branch:
+    a-  git checkout -b your-new-branch-name
+5-  Check status and then start coding.
+
+Basic commands:
+
+1- To add everything after editing your code:
+    a- git add .
+2- To make a snapshot of your code:
+    a-  git commit -m "Your Commit Message"
+3-  To push your branch to GitHub:
+    a- git push origin your-branch-name
+
+
+Important again!!!!
+If you are done with your feature/task then create a pull request on gitHub.
+SomeOne else will review your code and will merge your branch with the development branch.
+After successful merge, You need to update your local development branch. 
+Switch to development branch and use "git pull origin development" command to get the latest development branch. Then save the changes by using "git add ." Then git commit -m "Your commit message" Then git push origin development"
+
+For another task/feature create new branch for that. Do not work on the branch which is already merged.
+
+If you have any questions, improvements, feel free to ask and suggest :)
+Lets do it Team. 
+
+Husham
+
+
+
